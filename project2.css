@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    
+    height: 60px;
+}
+nav{
+    height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(59, 235, 56);
+   align-items: center;
+   
+    }
+#main{
+    font-size:xx-large;
+    position:relative;
+    left: 10px;
+    font-family: "Gill Sans", sans-serif;
+        
+}
+ul{
+    position: relative;
+    display: flex;
+    list-style-type:none ;
+    gap: 20px;
+    padding:3px 3px;
+    right: 10px;
+    
+}
+#home{
+    padding-left: 15px;
+}
+#about{
+    padding-left: 10px;
+}
+#service{
+    padding-left: 8px;
+}
+
+#home:hover{
+    color: blue;
+}
+#about:hover{
+    color: blue;
+}
+#service:hover{
+    color: blue;
+}
+#contact:hover{
+    color: blue;
+}
+li{ 
+    
+    width: 70px;
+    border: 1px solid aquamarine;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border-color: aliceblue;
+    font-size: large;
+}
+.navb{
+    display: flex;
+    
+}
+.hello{
+    height: 500px;
+   display: flex;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   background-image: url(texi2.jpg);
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   flex-flow: column;
+   opacity: 90%;
+}
+.lin{
+    width: 100px;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-weight: 100;
+    padding: 2px;
+    text-decoration: solid;
+    font-weight: 600;
+    padding: 5px;
+}
+.first{
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+.qustion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.popup{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.option1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgb(129, 132, 127);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.option2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgb(129, 132, 127);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    
+    
+}
+.option3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgb(129, 132, 127);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.option1:hover{
+
+    box-shadow: none;
+    
+}
+.option2:hover{
+    
+    box-shadow: none;
+}
+.option3:hover{
+    box-shadow: none;
+    
+}
+.footers{
+    display: flex;
+    background-color: rgb(25, 24, 24);
+    color: aliceblue;
+    justify-content: center;
+}
+
+
